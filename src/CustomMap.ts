@@ -23,7 +23,7 @@ export class CustomMap {
       });
     } else {
       const window = new google.maps.InfoWindow({
-        content: `<h2>${marker.getBusinessName()}'s business location is</h2>Latitude: ${marker.getLatitude()}<br>Longitude: ${marker.getLongitude()}`,
+        content: `<h2>${marker.getBusinessName()}'s location is</h2>Latitude: ${marker.getLatitude()}<br>Longitude: ${marker.getLongitude()}`,
       }); //the business name looks like a person's name on the info window because faker produces people names only
     }
 
